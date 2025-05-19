@@ -23,8 +23,8 @@ public class Checking_test01 {
 			if (avgTemps[i] > avgTemps[i - 1]) {
 				currentLength++;
 				if (currentLength > maxLength) {
-					maxStart = currentStart;
 					maxLength = currentLength;
+					maxStart = currentStart;
 				}
 			} else {
 				currentStart = i;
