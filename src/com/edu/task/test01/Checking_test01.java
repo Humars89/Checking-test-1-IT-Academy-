@@ -16,7 +16,7 @@ public class Checking_test01 {
 		}
 
 		// Поиск самого длинного периода роста температуры
-		int maxStart = 0, maxLength = 0;
+		int maxStart = 0, maxLength = 1;
 		int currentStart = 0, currentLength = 1;
 
 		for (int i = 1; i < avgTemps.length; i++) {
